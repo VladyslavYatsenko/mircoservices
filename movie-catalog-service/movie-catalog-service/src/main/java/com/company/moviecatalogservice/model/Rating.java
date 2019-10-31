@@ -1,6 +1,5 @@
 package com.company.moviecatalogservice.model;
 
-
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -8,8 +7,7 @@ import lombok.NoArgsConstructor;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class CatalogItem {
-    private String name;
-    private String desc;
+public class Rating {
+    private String movieId;
     private int rating;
 }
